@@ -169,3 +169,41 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 1.5em 2rem;
+    }
+}
+@media (max-width: 991px) {
+    #menu-btn {
+        display: inline-block;
+    }
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    } 
+    .header .navbar a {
+        display: block;
+        color: var(--black);
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
+
