@@ -76,3 +76,35 @@ body {
 #menu-btn {
     display: none;
 }
+
+/* Search form */
+.header .search-form {
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: white;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.header .search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: var(--black);
+    text-transform: none;
+}
+.header .search-form label {
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black);
+}
+.header .search-form label:hover {
+    color: var(--main-color);
+}
+
